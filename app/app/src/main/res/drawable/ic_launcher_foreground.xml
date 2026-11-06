@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Foreground layer for the adaptive launcher icon (API 26+).
+
+    Paths are scaled to 72% and re-centred so the entire logo sits well
+    within the adaptive icon safe zone (the inner 72dp of the 108dp canvas),
+    preventing the water drop from being clipped by the launcher shape mask.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Arc 1 - inner -->
+    <path
+        android:pathData="M 225.5,201.7 A 43.2,43.2 0 0,1 286.5,201.7"
+        android:strokeWidth="24"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient android:startX="0" android:startY="0"
+                android:endX="512" android:endY="512" android:type="linear">
+                <item android:offset="0" android:color="#FF2563EB" />
+                <item android:offset="1" android:color="#FF06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Arc 2 - middle -->
+    <path
+        android:pathData="M 189.8,176.7 A 86.4,86.4 0 0,1 322.2,176.7"
+        android:strokeWidth="24"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient android:startX="0" android:startY="0"
+                android:endX="512" android:endY="512" android:type="linear">
+                <item android:offset="0" android:color="#FF2563EB" />
+                <item android:offset="1" android:color="#FF06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Arc 3 - outer -->
+    <path
+        android:pathData="M 149.9,157.9 A 129.6,129.6 0 0,1 362.1,157.9"
+        android:strokeWidth="24"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient android:startX="0" android:startY="0"
+                android:endX="512" android:endY="512" android:type="linear">
+                <item android:offset="0" android:color="#FF2563EB" />
+                <item android:offset="1" android:color="#FF06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Water drop -->
+    <path
+        android:pathData="M 256.0,225.0 C 256.0,225.0 201.3,275.4 201.3,311.4 A 54.7,54.7 0 0,0 310.7,311.4 C 310.7,275.4 256.0,225.0 256.0,225.0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="0" android:startY="0"
+                android:endX="512" android:endY="512" android:type="linear">
+                <item android:offset="0" android:color="#FF2563EB" />
+                <item android:offset="1" android:color="#FF06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>

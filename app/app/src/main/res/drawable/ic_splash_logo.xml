@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Foreground layer for the adaptive launcher icon (API 26+) and fallback
+    for older APIs. Rendered on top of ic_launcher_background.
+
+    The SVG linearGradient (blue to cyan, #2563eb to #06b6d4) is reproduced
+    using Android's <gradient> element inside <aapt:attr>, supported by
+    aapt2 on API 24+. Paths are identical to the source SVG (512x512 viewport).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="288dp"
+    android:height="288dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Arc 1 - inner (90 deg span) -->
+    <path
+        android:pathData="M 213.6,267.6 A 60,60 0 0,1 298.4,267.6"
+        android:strokeWidth="24"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="0" android:startY="0"
+                android:endX="512" android:endY="512"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF2563EB" />
+                <item android:offset="1" android:color="#FF06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Arc 2 - middle (100 deg span) -->
+    <path
+        android:pathData="M 164,232.8 A 120,120 0 0,1 348,232.8"
+        android:strokeWidth="24"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="0" android:startY="0"
+                android:endX="512" android:endY="512"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF2563EB" />
+                <item android:offset="1" android:color="#FF06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Arc 3 - outer (110 deg span) -->
+    <path
+        android:pathData="M 108.6,206.7 A 180,180 0 0,1 403.4,206.7"
+        android:strokeWidth="24"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="0" android:startY="0"
+                android:endX="512" android:endY="512"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF2563EB" />
+                <item android:offset="1" android:color="#FF06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Water drop -->
+    <path
+        android:pathData="M 256,300 C 256,300 180,370 180,420 A 76,76 0 0,0 332,420 C 332,370 256,300 256,300 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0" android:startY="0"
+                android:endX="512" android:endY="512"
+                android:type="linear">
+                <item android:offset="0" android:color="#FF2563EB" />
+                <item android:offset="1" android:color="#FF06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>

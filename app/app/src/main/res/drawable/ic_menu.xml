@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Hamburger icon (Material "menu" glyph, 24x24dp grid). Used as the
+    navigation icon of the main screen's top app bar; opens the options menu.
+    The color is explicit so it does not depend on the (dark/light) theme.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:fillColor="#FF333333"
+        android:pathData="M3,18h18v-2H3v2zM3,13h18v-2H3v2zM3,6v2h18V6H3z" />
+</vector>

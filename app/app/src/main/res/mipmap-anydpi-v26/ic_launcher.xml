@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Adaptive launcher icon descriptor (API 26+).
+    Place this file in:  res/mipmap-anydpi-v26/ic_launcher.xml
+    The system applies the device's preferred shape (circle, squircle, etc.)
+    by masking the foreground layer over the background layer.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>

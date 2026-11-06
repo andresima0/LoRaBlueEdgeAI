@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Options opened by the hamburger icon of the main screen. -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_platform_settings"
+        android:title="Platform settings">
+        <!-- Submenu: choosing a platform opens its settings directly. -->
+        <menu>
+            <item
+                android:id="@+id/menu_platform_thingsboard"
+                android:title="ThingsBoard" />
+            <item
+                android:id="@+id/menu_platform_konker"
+                android:title="Konker" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_weather_settings"
+        android:title="Weather settings" />
+    <item
+        android:id="@+id/menu_export_data"
+        android:title="Export data" />
+</menu>
